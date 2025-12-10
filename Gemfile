@@ -10,9 +10,13 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 3.10.0"
 
+
+gem "base64"
+gem "logger"
+gem "bigdecimal"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.0"
-
+gem "jekyll-theme-console"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
@@ -33,7 +37,7 @@ end
 gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 
 # kramdown v2 ships without the gfm parser by default. If you're using
-# kramdown v1, comment out this line.
+# kramdown v1, comment out this line.vuns
 gem "kramdown-parser-gfm"
 
 # Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem

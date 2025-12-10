@@ -1,2 +1,0 @@
-# jenishthanki.github.io
-Website

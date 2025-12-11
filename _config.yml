@@ -14,11 +14,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-remote_theme: b2a3e8/jekyll-theme-console
-# Optional but recommended
-plugins:
-  - jekyll-seo-tag
-
 title: Jenish Thanki
 email: jenishthanki0@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -32,9 +27,12 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-console
+remote_theme: b2a3e8/jekyll-theme-console
+# Optional but recommended
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

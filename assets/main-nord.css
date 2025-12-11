@@ -10,15 +10,15 @@
 body {
   background-color: var(--background-color);
   margin: 0 auto;
-  padding: 0 120px;
+  padding: 0 220px;
   font-family: "Source Code Pro", monospace;
-  font-size: 14.5px;
+  font-size: var(--font-size-base);
   color: var(--text-color);
   text-align: left;
   line-height: 1.5 !important; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 17.5px;
+  font-size: var(--font-size-heading);
   margin: 0px;
   margin-top: 22px;
   font-weight: bold;
@@ -142,7 +142,7 @@ input[type=text], select, textarea {
   background-color: var(--background-color);
   color: var(--text-color);
   caret-color: var(--text-color);
-  font-size: 12.5px;
+  font-size: var(--font-size-small);
   font-family: "Source Code Pro", monospace;
   line-height: 1.5; }
 
@@ -160,7 +160,7 @@ input, select, textarea, textarea::-webkit-input-placeholder {
   color: var(--placeholder-color); }
 
 input[type=submit] {
-  font-size: 12.5px;
+  font-size: var(--font-size-small);
   font-family: "Source Code Pro", monospace;
   line-height: 1.5;
   cursor: pointer;
@@ -193,7 +193,7 @@ pre {
   padding: 0;
   margin: 0;
   overflow: auto;
-  font-size: 12.5px;
+  font-size: var(--font-size-small);
   color: var(--text-color);
   line-height: 1.7 !important;
   font-family: "Source Code Pro", monospace !important; }
@@ -449,6 +449,12 @@ pre {
   --text-color: var(--base-color);
   --placeholder-color: var(--base-color);
   --link-color: var(--base-color);
+  /* Font size variables - change these to scale all fonts easily */
+  --font-size-base: 16.5px;
+  --font-size-heading: 22px;
+  --font-size-small: 14px;
+  --font-size-sidebar-name: 20px;
+  --font-size-sidebar-title: 16px;
   --code-color-1: #aaaaaa;
   --code-color-2: #ffffcc;
   --code-color-3: #F00000;
@@ -486,7 +492,7 @@ pre {
   width: 100%;
   margin: 0;
   margin-left: 0;
-  padding: 20px;
+  padding: 50px;
   box-sizing: border-box;
 }
 
@@ -501,8 +507,8 @@ pre {
 }
 
 .profile-picture {
-  width: 300px;
-  height: 300px;
+  width: 330px;
+  height: 330px;
   object-fit: cover;
   object-position: center;
   image-rendering: auto;
@@ -516,14 +522,14 @@ pre {
 }
 
 .sidebar-name {
-  font-size: 18px;
+  font-size: var(--font-size-sidebar-name);
   font-weight: bold;
   margin-bottom: 10px;
   text-align: center;
 }
 
 .sidebar-title {
-  font-size: 14px;
+  font-size: var(--font-size-sidebar-title);
   margin-bottom: 20px;
   text-align: center;
   line-height: 1.4;
@@ -603,7 +609,7 @@ pre {
 
 .score {
   color: var(--text-color);
-  font-size: 14px;
+  font-size: var(--font-size-sidebar-title);
 }
 
 @media only screen and (max-width: 768px) {

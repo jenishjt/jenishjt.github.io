@@ -11,7 +11,7 @@ title: home
     </div>
     <ul class="contact-links">
       <li>
-        <a href="mailto:jenishthanki00@gmail.com">
+        <a href="mailto:jenishthanki0@gmail.com">
           <span>Email</span>
         </a>
       </li>
@@ -26,7 +26,7 @@ title: home
         </a>
       </li>
       <li>
-        <a href="https://linkedin.com/in/yourprofile" target="_blank">
+        <a href="https://linkedin.com/in/jenishthanki" target="_blank">
           <span>LinkedIn</span>
         </a>
       </li>
